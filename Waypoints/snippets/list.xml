@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="0" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" scenespecific="true" shared="false" type="scene">
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="GameIsOn" hidden="false" id="3" name="_GameIsOn" order="0"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="DrawEnd" hidden="false" id="4" name="_DrawEnd" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Drawing" enabled="true" id="2" name="draw" order="5" repeats="true"/>
+            <event displayName="Begin" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+            <event displayName="StartTrigger" enabled="true" id="5" name="event-key-press-release" order="2" repeats="true"/>
+            <event displayName="End" enabled="true" id="6" name="event-custom" order="6" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_0" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_2" classname="scripts.ActorEvents_2" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="2" name="ActorEvents_2" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <number default="25" defaultValue="25" desc="" dropdown="" fullname="Range" hidden="false" id="1" name="_Range" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_3_3_WaypointSpotBehavior" classname="scripts.Design_3_3_WaypointSpotBehavior" desc="" description="" design="true" drawOrder="0" id="3" name="WaypointSpotBehavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <text default="" defaultValue="" desc="" dropdown="" fullname="WaypointIndex" hidden="false" id="1" name="_WaypointIndex" order="1"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_4_4_EnemyWaypointBehavior" classname="scripts.Design_4_4_EnemyWaypointBehavior" desc="" description="" design="true" drawOrder="0" id="4" name="HelicopterWaypointBehavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="Waypoints" hidden="true" id="1" name="_Waypoints" order="1"/>
+        <list default="list" defaultValue="list" desc="" dropdown="" fullname="WaypointsToFind" hidden="false" id="2" name="_WaypointsToFind" order="2"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="StartAtFirstWaypoint" hidden="false" id="3" name="_StartAtFirstWaypoint" order="3"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="ControlNum01" hidden="true" id="4" name="_ControlNum01" order="4"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="TempRotation" hidden="true" id="5" name="_TempRotation" order="5"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="MoveSpeed" hidden="false" id="6" name="_MoveSpeed" order="6"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Moving" hidden="true" id="7" name="_Moving" order="8"/>
+        <number default="25.0" defaultValue="25.0" desc="" dropdown="" fullname="Range" hidden="true" id="8" name="_Range" order="7"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="BouysCollected" hidden="true" id="9" name="_BouysCollected" order="9"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="SetDirection" enabled="true" id="2" name="event-custom" order="5" repeats="true"/>
+            <event displayName="ChangeDirection" enabled="true" id="3" name="step" order="2" repeats="false"/>
+            <event displayName="StartMoving" enabled="true" id="7" name="event-custom" order="3" repeats="true"/>
+            <event displayName="EraseBuoy" enabled="true" id="8" name="event-collide-actortotype" order="7" repeats="true"/>
+            <event displayName="MissClick" enabled="true" id="9" name="event-key-press-release" order="8" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_8" classname="scripts.ActorEvents_8" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_8" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+</pack>

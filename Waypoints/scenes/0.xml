@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" eventsnippetid="0" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="Scene01" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="204" red="0"/>
+        <background blendMode="normal" customScrollFactor="false" id="2" locked="true" name="OceanBackground" opacity="100" order="2" rid="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="BuoyLayer" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="128,128,128" id="3" locked="false" name="PlayerLayer" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="true" group="0" id="0" name="Helicopter 1" sx="1.0" sy="1.0" x="149" y="300" z="3">
+            <snippets>
+                <s enabled="true" id="1"/>
+                <s enabled="true" id="4">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val=""/>
+                    <prop id="2" list="1" val="">
+                        <text order="0" value="ControlPoint"/>
+                        <text order="1" value="WaypointIndex00"/>
+                        <text order="2" value="ControlPoint"/>
+                        <text order="3" value="WaypointIndex01"/>
+                        <text order="4" value="ControlPoint"/>
+                        <text order="5" value="WaypointIndex02"/>
+                        <text order="6" value="ControlPoint"/>
+                        <text order="7" value="WaypointIndex03"/>
+                        <text order="8" value="ControlPoint"/>
+                        <text order="9" value="WaypointIndex04"/>
+                        <text order="10" value="ControlPoint"/>
+                        <text order="11" value="WaypointIndex05"/>
+                        <text order="12" value="ControlPoint"/>
+                        <text order="13" value="WaypointIndex06"/>
+                        <text order="14" value="ControlPoint"/>
+                        <text order="15" value="WaypointIndex07"/>
+                        <text order="16" value="ControlPoint"/>
+                        <text order="17" value="WaypointIndex08"/>
+                        <text order="18" value="ControlPoint"/>
+                        <text order="19" value="WaypointIndex09"/>
+                        <text order="20" value="ControlPoint"/>
+                    </prop>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="0"/>
+                    <prop id="6" list="0" val="20"/>
+                    <prop id="7" list="0" val="false"/>
+                    <prop id="8" list="0" val="30"/>
+                    <prop id="9" list="0" val="false"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="3" c="true" group="4" id="2" name="WayPoint 3" sx="1.0" sy="1.0" x="192" y="64" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex01"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="4" c="true" group="4" id="2" name="WayPoint 4" sx="1.0" sy="1.0" x="544" y="192" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex04"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="5" c="true" group="4" id="2" name="WayPoint 5" sx="1.0" sy="1.0" x="320" y="32" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex02"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="6" c="true" group="4" id="2" name="WayPoint 6" sx="1.0" sy="1.0" x="64" y="160" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex00"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="7" c="true" group="4" id="2" name="WayPoint 7" sx="1.0" sy="1.0" x="480" y="64" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex03"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="8" c="true" group="4" id="2" name="WayPoint 8" sx="1.0" sy="1.0" x="512" y="320" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex05"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="9" c="true" group="4" id="2" name="WayPoint 9" sx="1.0" sy="1.0" x="416" y="416" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex06"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="10" c="true" group="4" id="2" name="WayPoint 10" sx="1.0" sy="1.0" x="288" y="160" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex07"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="11" c="true" group="4" id="2" name="WayPoint 11" sx="1.0" sy="1.0" x="416" y="192" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex08"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="12" c="true" group="4" id="2" name="WayPoint 12" sx="1.0" sy="1.0" x="351" y="319" z="0">
+            <snippets>
+                <s enabled="true" id="2">
+                    <prop id="1" list="0" val="25"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="WaypointIndex09"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="13" c="true" group="4" id="8" name="Heliport 13" sx="1.0" sy="1.0" x="-10" y="353" z="0">
+            <snippets>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="ControlPoint"/>
+                    <prop id="2" list="0" val="true"/>
+                </s>
+                <s enabled="true" id="5"/>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>
